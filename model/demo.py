@@ -2,7 +2,7 @@
 # from model.Factorial import fact
 #
 # print("hello")
-# print(100 + 3)
+print(100 + 3)
 #
 #
 # # name=input("请输入：")
@@ -70,3 +70,7 @@ def fib(max):
 
 
 fib(6)
+
+g = lambda n: n % 2 == 1
+l = list(filter(g, range(1, 20)))
+print(l)
