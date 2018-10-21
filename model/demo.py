@@ -45,20 +45,20 @@ print(100 + 3)
 #     print(key)
 #     print(d[key])
 #
-# e = [(1, 1), (2, 4), (3, 9)]
-# for x, y in e:
-#     print(x, y)
-# print(list(range(1, 11)))
-#
-# l = []
-# for x in range(1, 11):
-#     l.append(x * x)
-# print(l)
-#
-# g = (x * x for x in range(1, 11))
-# print("g size:", g.__sizeof__())
-# for n in g:
-#     print(n)
+e = [(1, 1), (2, 4), (3, 9)]
+for x, y in e:
+    print(x, y)
+print(list(range(1, 11)))
+
+l = []
+for x in range(1, 11):
+    l.append(x * x)
+print(l)
+
+g = (x * x for x in range(1, 11))
+print("g size:", g.__sizeof__())
+for n in g:
+    print(n)
 
 
 def fib(max):
